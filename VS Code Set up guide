@@ -1,0 +1,6 @@
+Requirements to run C program on PC
+1. Download and install VS Code (Text Editor)
+2. Download and install MINGW (GCC Compiler)
+3. Set MINGW bin path in Environment Variables
+4. Install C/C++ Extention pack in VS Code
+5. Check set up by running sample C program in VS Code
