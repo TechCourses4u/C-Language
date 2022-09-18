@@ -1,2 +1,2 @@
 # C-Language
-C language course data - ppts, code and assignment solutions
+C language course data - set up guide, program code and assignment solutions
