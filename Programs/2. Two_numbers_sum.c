@@ -1,3 +1,4 @@
+/* Write a program to add 2 numbers given by user*/
 #include<stdio.h>
 int main(){
     int a;
