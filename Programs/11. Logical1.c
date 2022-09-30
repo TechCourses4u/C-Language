@@ -2,12 +2,14 @@
 #include <stdio.h>
 int main()
 {
-    int a = 10, b = 20, c = 0;
-    printf("1st: %d \n", (a==10) && (b==20));
-    printf("2nd: %d \n", (a==10) && (b==10));
-    printf("3rd: %d \n", (a==10) || (b==10));
-    printf("4th: %d \n", !(a==10));
-    printf("5th: %d \n", (a==10) && c);
-    printf("6th: %d \n", !(a == b));
+    int a = 10;
+    printf("1st:\n");
+    printf("%d \n", (a==10) && printf("hello\n"));
+    printf("2nd:\n");
+    printf("%d \n", (a==20) && printf("hello\n"));
+    printf("3rd:\n");
+    printf("%d \n", (a==10) || printf("hello\n"));
+    printf("4th:\n");
+    printf("%d \n", (a==20) || printf("hello\n"));
     return 0;
 }
