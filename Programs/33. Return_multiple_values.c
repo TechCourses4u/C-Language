@@ -1,6 +1,6 @@
 /* Sample program to understand how to return multiple values from a function using call by reference */
 #include<stdio.h>
-int square_and_cube(int x,int* square,int* cube){
+void square_and_cube(int x,int* square,int* cube){
     *square = x*x;
     *cube = x*x*x;
 }
