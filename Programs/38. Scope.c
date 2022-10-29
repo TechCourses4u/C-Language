@@ -7,6 +7,7 @@ Function Scope - Applicable only to goto labels. Both goto and its label must be
 Prototype Scope - Visible only inside function prototype. Doesn’t include even function definition.
 */
 
+
 #include<stdio.h>
 int x = 10;               //File
 void f(int i);            //Prototype
@@ -14,12 +15,12 @@ int main(){
     int  y = 20;           //Block
     {
         int z = 30;        //Block
-        printf("inner block : %d\n",z); 
-        printf("outer block : %d\n",y);
+        printf("inner block z : %d\n",z); 
+        printf("inner block y : %d\n",y);
         goto label;        //Function
     }
     label:                 //Function
-    printf("outer block : %d\n",y);
+    printf("outer block y: %d\n",y);
     f(10);
     return 0; 
 }
