@@ -1,3 +1,4 @@
+/* Sample program to understand array of pointers in C*/
 #include<stdio.h>
 int main()
 {
