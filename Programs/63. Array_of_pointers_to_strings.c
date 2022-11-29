@@ -2,7 +2,7 @@
 #include<stdio.h>
 int main(){
     char *names[5] = {
-				        "ramesh",
+			"ramesh",
                         "suresh",
                         "deepak",
                         "amit",
