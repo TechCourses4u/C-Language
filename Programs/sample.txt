@@ -1,0 +1,6 @@
+This is a sample text file to understand below file operations in C:
+1. Create new file
+2. Open existing file
+3. Read contents from file
+4. Write Contents to file
+5. Close file
