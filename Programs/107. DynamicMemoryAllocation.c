@@ -1,4 +1,3 @@
-/* Sample program to understand dynamic memory allocation functions - malloc,calloc,realloc and free in C */
 #include<stdio.h>
 #include<stdlib.h>
 int main()
@@ -45,7 +44,7 @@ int main()
 
     // realloc usage
     n = 5;
-    cptr = (int*) realloc(cptr, sizeof(int));
+    cptr = (int*) realloc(cptr, n * sizeof(int));
     if (cptr == NULL) {
         printf("realloc memory allocation failed\n");
         exit(0);
@@ -69,17 +68,3 @@ int main()
     printf("memory deallocation success\n");
     return 0;
 }
-
-/* Output:
-malloc memory allocation successful
-Array elements :
-0 10 20
-calloc memory allocation successful
-Array elements :
-0 10 20
-realloc memory allocation successful
-Array elements :
-0 10 20 30 40
-memory deallocation start
-memory deallocation success
-*/
